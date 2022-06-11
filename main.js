@@ -97,21 +97,88 @@
 // }
 // detailsfun();
 // 14:
-function movie(){
-    var mymovie= {
-        name: prompt("name"),
-        views: +prompt("v"),
-        year: +prompt("ye"),
-        imgURL: prompt("img"),
-    }
+// function movie(){
+//     var mymovie= {
+//         name: prompt("name"),
+//         views: +prompt("v"),
+//         year: +prompt("ye"),
+//         imgURL: prompt("img"),
+//     }
 
-        document.write("<h1>" +mymovie.name+"</h1>" +mymovie.views+"<span>"+ mymovie.year+"</span>" +mymovie.imgFile);
-    }
+//     document.body.innerHTML="<h1>" +mymovie.name+"</h1>" +mymovie.views+"<span>"+
+        //  mymovie.year+"</span>" +mymovie.imgFile;
+//     }
     
+// movie();
+
+// // 15:////////////////////////////////////////////////////////////////////////////
+// function employefun(){
+//     myemploy= {
+//     name: document.createElement("input"),
+//     // last:document.createElement("input"),
+//     // email: document.createElement("input"),
+//     // deparment: document.createElement("input")  
+//     }
+    
+//     document.body.innerHTML= myemploy.name.setAttribute("type", "text");
+
+// }
+// employefun();
+
+// 16:
+// function mybiulding(){
+//     var num= +prompt("num");
+//     for(var i=0; i<num; i++){
+//         var biulding = {
+//             name:prompt("nn"),
+//             constructor:prompt("co"),
+//             company:prompt("c"),
+//             floors:prompt("f"),
+//             apartments:prompt("a")
+//         }
+//      document.body.innerHTML+= "<h3>"+ biulding.name + biulding.constructor + biulding.company + biulding.floors + biulding.apartments +"</h3>";
+//     }
+
+// }
+// mybiulding();
+// 17:
+// function myshope(){
+//     var number= +prompt("number");
+//     for(var i=0; i<number; i++){
+//         var shop= {
+//             name:prompt("name"),
+//             address:prompt("add"),
+//             emploeys: +prompt("numberemp")
+//         }
+//         if (shop.emploeys> 10){
+//             document.body.innerHTML+= "<div>"+shop.name+ shop.address+shop.emploeys+"</div>"
+//         }
+//     }
+// }
+// myshope();
+
+// // 18:
+// var count= 0;////////////////////////////////////////////////////
+// function countelments(){
+//     window.print() ;
+//     count +=1;
+//     console.log(count);
+// }
+// countelments();
+
+// 19:
+//  function mycont(){
+//         var number= +prompt("number");
+//         for(var i=0; i<number; i++){
+//             var contact= {
+//                 name:prompt("name"),
+//                 email:prompt("addemail"),
+//                 tel: +prompt("number")
+//             }
+//                 document.body.innerHTML+= "<li>"+contact.name+"</li>";
+//         }
+//         }
+    
+//     mycont();
 
 
-movie();
-// name: document.createElement("input"),
-// views:document.createElement("input"),
-// year: document.createElement("input"),
-// imgFile: document.createElement("input")
