@@ -37,27 +37,81 @@
 // }
 
 // getfromuser();
-// 9:
-function builddom(){
-    var txt = prompt("text"); 
-    var tagname = prompt ("tagname");
-    document.createElement("tagname");
-    tagname.innerText = txt;
+// // 9:
+// function builddom(){
+    
+//     var tagname = prompt ("tagname");
+//     var txt = prompt("text"); 
+
+//     var newtag= document.createElement(tagname);
+//     document.body.appendChild(newtag);
+//     newtag.innerText = txt;
    
-}
-
-builddom();
-
-
-
-
-// // 12:
-// function addspan(){
-//     var idont= document.getElementsByTagName("p");
-
-//     // for(){
-//     idont.innerHTML="<span>uuuuu</span>";
-//     // }
 // }
 
-// addspan();
+// builddom();
+
+// 10:
+
+// function builinput(){
+    
+//     var inputType = prompt ("type");
+//     var newtag= document.createElement("input");
+//     document.body.appendChild(newtag);
+//     newtag.setAttribute("type", inputType);
+   
+// }
+
+// buildinput();
+// 11:
+// function changetext(classname, mytext){
+//     var myclass= document.getElementsByClassName(classname);
+//     for(var i= 0; i<myclass.length; i++){
+//     myclass[i].innerText= mytext;
+//     }
+ 
+// }
+
+// changetext("myp", "gggggggtttttt");
+
+// 12:
+// function myp(){
+//     var ptags = document.getElementsByTagName("p");
+//     for(var i=0; i< ptags.length; i++){
+//         ptags[i].innerHTML= "<span> jgjggj </span>";
+//     }
+// }
+// myp();
+
+// 13:
+// function detailsfun(){
+//     var firstname= prompt("name");
+//     var lastname= prompt("lname");
+//     var age= +prompt("age");
+//     document.write(firstname,lastname,age);
+//     if(age>18){
+//         var myinput= document.createElement("input");
+//         document.body.appendChild(myinput);
+//         myinput.setAttribute("type", "checkbox");
+//     }
+// }
+// detailsfun();
+// 14:
+function movie(){
+    var mymovie= {
+        name: prompt("name"),
+        views: +prompt("v"),
+        year: +prompt("ye"),
+        imgURL: prompt("img"),
+    }
+
+        document.write("<h1>" +mymovie.name+"</h1>" +mymovie.views+"<span>"+ mymovie.year+"</span>" +mymovie.imgFile);
+    }
+    
+
+
+movie();
+// name: document.createElement("input"),
+// views:document.createElement("input"),
+// year: document.createElement("input"),
+// imgFile: document.createElement("input")
